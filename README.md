@@ -39,3 +39,22 @@ The test suite validates a complete user journey:
 ### Test Account Credentials
 Username: standard_user
 Password: secret_sauce
+
+
+## Tech Stack
+- **Robot Framework**
+- **SeleniumLibrary**
+- **Python**
+- **Chrome Browser/ChromeDriver**
+
+----------------------------------------------
+
+## Execute test
+- robot  saucedemo.robot
+
+ ## Execute test by TAGS
+- robot -i authentication  saucedemo.robot
+- robot -i product  saucedemo.robot
+- robot -i cart  saucedemo.robot
+- robot -i checkout  saucedemo.robot
+- robot -i session  saucedemo.robot
